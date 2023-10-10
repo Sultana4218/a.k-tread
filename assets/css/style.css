@@ -233,23 +233,6 @@ input:focus {
 
 /* ===== header_part end ===== */
 /* ===== navbar_part start ===== */
-.navbar-brand {
-  background-color: rgb(45, 45, 73);
-  border: 3px solid var(--primary-bgcolor);
-  border-radius: 50%;
-  outline: 3px solid var(--secondary-color);
-  box-shadow: 0px 0px 0px 3px var(--secondary-bgcolor);
-}
-
-.navbar h2 {
-  color: var(--secondary-bgcolor);
-  margin-left: 20px;
-}
-
-.navbar h6 {
-  color: red;
-  margin: 5px;
-}
 
 nav.navbar {
   background-color: var(--secondary-color);
@@ -371,7 +354,7 @@ nav .nav-item .nav-link:hover {
 
 /* *** contact-part *** */
 
-.contact-part h6,
+.contact-part h5,
 h1 span {
   color: var(--secondary-bgcolor);
 }
@@ -391,24 +374,6 @@ h1 span {
   position: relative;
   margin-top: -110px;
   padding-top: 180px;
-}
-
-.footer-logo {
-  background-color: rgb(45, 45, 73);
-  border: 3px solid var(--primary-bgcolor);
-  border-radius: 70% !important;
-  outline: 3px solid var(--secondary-color);
-  box-shadow: 0px 0px 0px 5px var(--secondary-bgcolor);
-}
-
-.footer-logo h2 {
-  color: var(--secondary-bgcolor);
-  text-align: center;
-}
-
-.footer-logo h5 {
-  color: red !important;
-  text-align: center;
 }
 
 .footer h6 {
@@ -465,6 +430,10 @@ h1 span {
 
 .footer .copyright a {
   color: var(--light);
+}
+
+.footer .copyright a:hover {
+  color: var(--primary-bgcolor);
 }
 
 .footer .footer-menu a {
@@ -552,4 +521,19 @@ h1 span {
 .card-box .theme-btn,
 .option {
   margin-top: 10px;
+}
+
+/* =========== faq's page ===========  */
+.parallax1 {
+  /* The image used */
+  background-image: url("../img/faq-632c0874710c1-sej-760x400.webp");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
